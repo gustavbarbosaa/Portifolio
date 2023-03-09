@@ -12,6 +12,9 @@
           <a href="#about-me">Sobre mim</a>
         </li> 
         <li>
+          <a href="#container-form">Formação</a>
+        </li> 
+        <li>
           <a href="#experiences">Experiências</a>
         </li> 
         <li>
