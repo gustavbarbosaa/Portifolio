@@ -1,20 +1,23 @@
 <!-- eslint-disable vue/valid-template-root -->
 <template>
   <headerComponent />
-  <mainComponent />
+  <aboutMeComponent />
+  <experiencesComponent />
   <!-- <footerComponent /> -->
 </template>
 
 <script lang="ts">
 import headerComponent from './components/header/header.vue';
-import mainComponent from './components/main/main.vue';
+import aboutMeComponent from './components/main/aboutMeComponent.vue';
+import experiencesComponent from './components/main/experiences.vue';
 // import footerComponent from './components/footer/footer.vue';
 
 export default {
   name: 'App',
   components: {
     headerComponent,
-    mainComponent,
+    aboutMeComponent,
+    experiencesComponent,
     // footerComponent,
   },
 };

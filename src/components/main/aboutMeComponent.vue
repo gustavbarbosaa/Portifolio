@@ -44,7 +44,7 @@
 
 <script lang="ts">
 export default {
-  name: 'mainComponent',
+  name: 'aboutMeComponent',
   data() {
     return {
       nome: 'Gustavo Barbosa',

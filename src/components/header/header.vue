@@ -12,7 +12,7 @@
           <a href="#about-me">Sobre mim</a>
         </li> 
         <li>
-          <a href="expe">Experiências</a>
+          <a href="#experiences">Experiências</a>
         </li> 
         <li>
           <a href="#repos">Repositórios</a>
@@ -37,6 +37,11 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 
+html {
+  scroll-behavior: smooth;
+  /* animation: all ease-out ; */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -60,6 +65,7 @@ header {
 .title-header {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 ul li a {
