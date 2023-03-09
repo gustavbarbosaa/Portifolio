@@ -1,27 +1,21 @@
+<!-- eslint-disable vue/valid-template-root -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <headerComponent />
+  <mainComponent />
+  <!-- <footerComponent /> -->
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import headerComponent from './components/header/header.vue';
+import mainComponent from './components/main/main.vue';
+// import footerComponent from './components/footer/footer.vue';
 
-export default defineComponent({
+export default {
   name: 'App',
   components: {
-    HelloWorld,
+    headerComponent,
+    mainComponent,
+    // footerComponent,
   },
-});
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
