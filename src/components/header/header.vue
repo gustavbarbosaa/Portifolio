@@ -55,7 +55,9 @@ body {
 }
 
 header {
+  position: fixed;
   height: 4rem;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -63,6 +65,15 @@ header {
   font-size: 14px;
   font-style: italic;
   font-family: Roboto, sans-serif;
+  z-index: 1;
+  opacity: 0;
+  background-color: rgb(221, 221, 221);
+  transition: all .2s ease-in-out;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
+}
+
+header:hover {
+  opacity: 100;
 }
 
 .title-header {

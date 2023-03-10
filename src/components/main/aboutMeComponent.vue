@@ -20,15 +20,15 @@
        <ul>
          <li>
            <img src="../../assets/linkedin.png" alt="">
-            <a href="">Linkedin</a>
+            <a href="https://www.linkedin.com/in/gustavo-ara%C3%BAjo-a3a723219/" target="_blanck">Linkedin</a>
           </li> 
          <li>
             <img src="../../assets/github.png" alt="">
-            <a href="">Github</a>
+            <a href="https://github.com/gustavbarbosaa" target="_blanck">Github</a>
           </li> 
           <li>
             <img src="../../assets/instagram.png" alt="">
-            <a href="">Instagram</a>
+            <a href="https://www.instagram.com/gustavbarbosaa/" target="_blanck">Instagram</a>
           </li> 
         </ul>
       </nav>
@@ -55,7 +55,8 @@ export default {
 
 <style>
   main {
-    padding: 5rem;
+    padding: 1rem;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

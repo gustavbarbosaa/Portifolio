@@ -7,8 +7,12 @@
       </picture>
       <section>
         <div class="texts-form">
-          <h3>Cursando Ciências da Computação - Faculdade Católica da Paraíba</h3>
-          <h3>Atuando como Analista de TI Jr. - Netline Telecom</h3>
+          <div class="text-h3">
+            <h3>Cursando Ciências da Computação - Faculdade Católica da Paraíba</h3>
+          </div>
+          <div class="text-h3">
+            <h3>Atuando como Analista de TI Jr. - Netline Telecom</h3>
+          </div>
         </div>
       </section>
     </div>
@@ -37,7 +41,10 @@ export default {
   }
 
   .formacao {
+    z-index: 0;
+    position: relative;
     height: 70%;
+    max-width: 1253px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -46,19 +53,19 @@ export default {
     -webkit-box-shadow: 0px 7px 22px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 7px 22px 3px rgba(0,0,0,0.75);
     box-shadow: 0px 7px 22px 3px rgba(0,0,0,0.75);
-
   }
 
   .formacao h3 {
+    position: relative;
     padding: 2rem;
     margin: 3rem;
     font-weight: bold;
     border: 1px solid #acaaaa;
-    /* background-color: #7e7e7e; */
     border-radius: 50px 10px;
   }
 
   .formacao img {
     height: 350px;
   }
+
 </style>
