@@ -29,6 +29,12 @@ export default {
     font-size: 14px;
   }
 
+  .card-experience:hover {
+    transition: .2s ease-in-out;
+    transform: scale(1.1);
+    cursor: text;
+  }
+
   .card-experience h2 {
     width: 100%;
     margin-top: 0;

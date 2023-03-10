@@ -4,7 +4,8 @@
   <aboutMeComponent />
   <formationComponent />
   <experiencesComponent />
-  <!-- <footerComponent /> -->
+  <repositoriesComponent />
+  <footerComponent />
 </template>
 
 <script lang="ts">
@@ -12,6 +13,8 @@ import headerComponent from './components/header/header.vue';
 import aboutMeComponent from './components/main/aboutMeComponent.vue';
 import experiencesComponent from './components/main/experiences.vue';
 import formationComponent from './components/main/formationComponent.vue';
+import repositoriesComponent from './components/main/myRepositoriesComponent.vue';
+import footerComponent from './components/footer/footer.vue';
 
 export default {
   name: 'App',
@@ -20,7 +23,8 @@ export default {
     aboutMeComponent,
     experiencesComponent,
     formationComponent,
-    // footerComponent,
+    repositoriesComponent,
+    footerComponent,
   },
 };
 </script>

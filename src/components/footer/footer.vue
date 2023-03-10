@@ -12,6 +12,7 @@ export default {
 
 <style>
   footer {
+
     text-align: center;
     font-weight: bold;
     font-style: italic;

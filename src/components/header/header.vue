@@ -18,7 +18,7 @@
           <a href="#experiences">Experiências</a>
         </li> 
         <li>
-          <a href="#repos">Repositórios</a>
+          <a href="#repositories-container">Repositórios</a>
         </li> 
       </ul>
     </nav>
@@ -42,7 +42,7 @@ export default {
 
 html {
   scroll-behavior: smooth;
-  /* animation: all ease-out ; */
+  animation: all ease-out ;
 }
 
 body {
