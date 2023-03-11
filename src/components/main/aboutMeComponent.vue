@@ -54,7 +54,7 @@ export default {
 </script>
 
 <style>
-  main {
+  #about-me {
     padding: 1rem;
     height: 100vh;
     display: flex;

@@ -41,14 +41,22 @@ export default {
   .section-container {
     height: 75%;
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     border-radius: 20px 40px;
     background-color: rgb(44, 39, 46);
   }
 
   .cards-repositories {
+    width: 50%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 10px 20px;
+    background-color: rgba(149, 145, 151, 0.288);
   }
 
   .cards-repositories h3, p {
